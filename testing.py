@@ -1,6 +1,20 @@
 import Portafolio3;
 import pytest;
-    
+
+def test_construir_1():
+    assert Portafolio3.construir(2345) == 24
+
+def test_digitoMenor_1():
+    assert Portafolio3.digitoMenor(569803) == 0
+
+def test_digitosOrdenados_1():
+    assert Portafolio3.digitosOrdenados(2345678) == True
+
+def test_elevarNumero_1():
+    assert Portafolio3.elevarNumero(5, 3) == 125
+
+#####################################################################################################
+
 def test_invertirLista_1():
     assert Portafolio3.invertirLista([5,8,45,96]) == [96, 45, 8, 5]
     
