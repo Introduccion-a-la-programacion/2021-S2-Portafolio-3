@@ -9,6 +9,38 @@
 - Debe crear los comentarios de cada función tomando en cuenta **Nombre**, **Entrada**, **Salida** y **Restricciones**
 - Fecha de entrega: **Miércoles 27 de Octubre a las 10pm**
 
+## Construir Número
+Construir una función que forme un número a partir de otro, considerando sólo los **dígitos pares** del número de entrada.
+
+```python
+>>>construir(2345)
+24
+```
+
+## Digito Menor
+Construir una función  que reciba un número entero y retorne el dígito menor de este.
+
+```python
+>>>digitoMenor(569803)
+0
+```
+
+## Digitos ordenados
+Construir una función que reciba un número e indique si sus dígitos están ordenados de manera descendente.
+
+```python
+>>>digitosOrdenados(2345678)
+True
+```
+
+## Elevar número
+Construir una función que eleve un número x a una potencia n, sin utilizar el operador de exponente. Hacer uso del **FOR**
+
+```python
+>>>elevarNumero(5, 3)
+125
+```
+
 ##	Invertir elementos lista
 Escriba un programa con sintaxis Python cuya función principal se llame **invertirLista(lista)**, que reciba como entrada una lista con números enteros denominado **lista** y que retorne la lista pero con los elementos invertidos 
 
